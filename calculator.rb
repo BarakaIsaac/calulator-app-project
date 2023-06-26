@@ -1,7 +1,7 @@
 puts "Simple arithmetic calculation app"
-puts "Input your numbers spacing between numbers and symbol"
+puts "Input your numbers"
 print ">> "
-input = gets.chomp.split(" ")
+input = gets.chomp()
 operand1 = input[0].to_i 
 operand2 = input[2].to_i
 operator = input[1].to_sym
@@ -17,3 +17,5 @@ invalidOp= false
 end
 
 puts output
+
+
